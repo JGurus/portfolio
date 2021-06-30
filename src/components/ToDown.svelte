@@ -1,0 +1,103 @@
+<script></script>
+
+<svg width="88" height="88" viewBox="0 0 88 88" fill="none">
+  <g filter="url(#filter0_d)">
+    <g filter="url(#filter1_d)">
+      <circle cx="44" cy="40" r="40" fill="#5A9FD4" />
+    </g>
+    <path
+      d="M20.5 32C38.6143 63.8884 49.0243 64.0559 68 32"
+      stroke="white"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+  <defs>
+    <filter
+      id="filter0_d"
+      x="0"
+      y="0"
+      width="88"
+      height="88"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix
+        in="SourceAlpha"
+        type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+      />
+      <feOffset dy="4" />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix
+        type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+      />
+      <feBlend
+        mode="normal"
+        in2="BackgroundImageFix"
+        result="effect1_dropShadow"
+      />
+      <feBlend
+        mode="normal"
+        in="SourceGraphic"
+        in2="effect1_dropShadow"
+        result="shape"
+      />
+    </filter>
+    <filter
+      id="filter1_d"
+      x="4"
+      y="0"
+      width="80"
+      height="80"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix
+        in="SourceAlpha"
+        type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+      />
+      <feMorphology
+        radius="4"
+        operator="erode"
+        in="SourceAlpha"
+        result="effect1_dropShadow"
+      />
+      <feOffset />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix
+        type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+      />
+      <feBlend
+        mode="normal"
+        in2="BackgroundImageFix"
+        result="effect1_dropShadow"
+      />
+      <feBlend
+        mode="normal"
+        in="SourceGraphic"
+        in2="effect1_dropShadow"
+        result="shape"
+      />
+    </filter>
+  </defs>
+</svg>
+
+<style>
+  svg {
+    animation-name: rebote;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes rebote {
+    75% {
+      transform: translateY(5%);
+    }
+  }
+</style>
